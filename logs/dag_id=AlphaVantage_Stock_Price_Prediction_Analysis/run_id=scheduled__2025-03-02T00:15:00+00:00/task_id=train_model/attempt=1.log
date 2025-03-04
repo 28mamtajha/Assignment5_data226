@@ -1,0 +1,83 @@
+[2025-03-03T01:22:22.261+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-03T01:22:22.268+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: AlphaVantage_Stock_Price_Prediction_Analysis.train_model scheduled__2025-03-02T00:15:00+00:00 [queued]>
+[2025-03-03T01:22:22.271+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: AlphaVantage_Stock_Price_Prediction_Analysis.train_model scheduled__2025-03-02T00:15:00+00:00 [queued]>
+[2025-03-03T01:22:22.272+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-03-03T01:22:22.277+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): train_model> on 2025-03-02 00:15:00+00:00
+[2025-03-03T01:22:22.282+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=5869) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-03T01:22:22.282+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'AlphaVantage_Stock_Price_Prediction_Analysis', 'train_model', 'scheduled__2025-03-02T00:15:00+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmpcqevnuag']
+[2025-03-03T01:22:22.283+0000] {standard_task_runner.py:105} INFO - Job 74: Subtask train_model
+[2025-03-03T01:22:22.282+0000] {standard_task_runner.py:72} INFO - Started process 5872 to run task
+[2025-03-03T01:22:22.309+0000] {task_command.py:467} INFO - Running <TaskInstance: AlphaVantage_Stock_Price_Prediction_Analysis.train_model scheduled__2025-03-02T00:15:00+00:00 [running]> on host b90f03c6f926
+[2025-03-03T01:22:22.347+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='AlphaVantage_Stock_Price_Prediction_Analysis' AIRFLOW_CTX_TASK_ID='train_model' AIRFLOW_CTX_EXECUTION_DATE='2025-03-02T00:15:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-02T00:15:00+00:00'
+[2025-03-03T01:22:22.348+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-03T01:22:22.669+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-03-03T01:23:58.351+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-03-03T01:23:59.745+0000] {cursor.py:1156} INFO - Number of results in first chunk: 14
+[2025-03-03T01:23:59.747+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-03T01:23:59.787+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-03T01:23:59.788+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=AlphaVantage_Stock_Price_Prediction_Analysis, task_id=train_model, run_id=scheduled__2025-03-02T00:15:00+00:00, execution_date=20250302T001500, start_date=20250303T012222, end_date=20250303T012359
+[2025-03-03T01:23:59.846+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-03T01:23:59.858+0000] {taskinstance.py:3925} ERROR - Error scheduling downstream tasks. Skipping it as this is entirely optional optimisation. There might be various reasons for it, please take a look at the stack trace to figure out if the root cause can be diagnosed and fixed. See the issue https://github.com/apache/***/issues/39717 for details and an example problem. If you would like to get help in solving root cause, open discussion with all details with your managed service support or in Airflow repository.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3921, in schedule_downstream_tasks
+    return TaskInstance._schedule_downstream_tasks(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3870, in _schedule_downstream_tasks
+    partial_dag = task.dag.partial_subset(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 2664, in partial_subset
+    t.task_id: _deepcopy_task(t)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dag.py", line 2661, in _deepcopy_task
+    return copy.deepcopy(t, memo)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 143, in deepcopy
+    y = copier(memo)
+        ^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 1388, in __deepcopy__
+    setattr(result, k, copy.deepcopy(v, memo))
+                       ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 136, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 221, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 136, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 201, in _deepcopy_tuple
+    y = [deepcopy(a, memo) for a in x]
+         ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 162, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 259, in _reconstruct
+    state = deepcopy(state, memo)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 136, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 221, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 162, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 259, in _reconstruct
+    state = deepcopy(state, memo)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 136, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 221, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/copy.py", line 151, in deepcopy
+    rv = reductor(4)
+         ^^^^^^^^^^^
+TypeError: cannot pickle '_thread.lock' object
+[2025-03-03T01:23:59.864+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,20 @@
+[2025-02-23T00:32:56.173+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-23T00:32:56.183+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: AlphaVantage_Stock_Price_Prediction_Analysis.predict manual__2025-02-23T00:29:38.076331+00:00 [queued]>
+[2025-02-23T00:32:56.188+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: AlphaVantage_Stock_Price_Prediction_Analysis.predict manual__2025-02-23T00:29:38.076331+00:00 [queued]>
+[2025-02-23T00:32:56.188+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-02-23T00:32:56.193+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): predict> on 2025-02-23 00:29:38.076331+00:00
+[2025-02-23T00:32:56.199+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1986) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-23T00:32:56.199+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'AlphaVantage_Stock_Price_Prediction_Analysis', 'predict', 'manual__2025-02-23T00:29:38.076331+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmp406_isfr']
+[2025-02-23T00:32:56.200+0000] {standard_task_runner.py:105} INFO - Job 14: Subtask predict
+[2025-02-23T00:32:56.200+0000] {standard_task_runner.py:72} INFO - Started process 1989 to run task
+[2025-02-23T00:32:56.226+0000] {task_command.py:467} INFO - Running <TaskInstance: AlphaVantage_Stock_Price_Prediction_Analysis.predict manual__2025-02-23T00:29:38.076331+00:00 [running]> on host b90f03c6f926
+[2025-02-23T00:32:56.264+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='AlphaVantage_Stock_Price_Prediction_Analysis' AIRFLOW_CTX_TASK_ID='predict' AIRFLOW_CTX_EXECUTION_DATE='2025-02-23T00:29:38.076331+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-23T00:29:38.076331+00:00'
+[2025-02-23T00:32:56.264+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-23T00:33:20.044+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-02-23T00:33:20.806+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-02-23T00:33:20.806+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-23T00:33:20.826+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-23T00:33:20.827+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=AlphaVantage_Stock_Price_Prediction_Analysis, task_id=predict, run_id=manual__2025-02-23T00:29:38.076331+00:00, execution_date=20250223T002938, start_date=20250223T003256, end_date=20250223T003320
+[2025-02-23T00:33:20.864+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-23T00:33:20.892+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-23T00:33:20.894+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

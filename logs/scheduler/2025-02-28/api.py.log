@@ -1,0 +1,594 @@
+[2025-02-28T00:35:17.885+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:35:17.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:35:17.892+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:17.891+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:35:17.934+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:17.934+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:35:17.937+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:17.937+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:35:17.938+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:17.938+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:35:17.939+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:17.938+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:35:18.907+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:35:18.977+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:18.976+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:35:19.002+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:19.002+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:35:19.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 1.158 seconds
+[2025-02-28T00:35:49.271+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:35:49.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:35:49.276+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:49.276+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:35:49.311+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:49.310+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:35:49.312+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:49.312+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:35:49.313+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:49.313+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:35:49.313+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:49.313+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:35:49.857+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:35:49.933+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:49.933+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:35:49.945+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:35:49.945+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:35:49.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.696 seconds
+[2025-02-28T00:36:20.352+0000] {processor.py:186} INFO - Started process (PID=268) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:36:20.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:36:20.358+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:20.357+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:36:20.398+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:20.398+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:36:20.400+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:20.400+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:36:20.401+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:20.401+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:36:20.401+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:20.401+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:36:20.773+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:36:20.833+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:20.833+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:36:20.844+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:20.844+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:36:20.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.518 seconds
+[2025-02-28T00:36:50.931+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:36:50.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:36:50.936+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:50.935+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:36:50.959+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:50.959+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:36:50.960+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:50.960+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:36:50.961+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:50.961+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:36:50.962+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:50.962+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:36:51.356+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:36:51.413+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:51.413+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:36:51.423+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:36:51.423+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:36:51.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.507 seconds
+[2025-02-28T00:37:21.776+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:37:21.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:37:21.780+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:21.780+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:37:21.802+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:21.802+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:37:21.803+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:21.803+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:37:21.804+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:21.804+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:37:21.804+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:21.804+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:37:22.227+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:37:22.300+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:22.300+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:37:22.310+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:22.310+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:37:22.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.551 seconds
+[2025-02-28T00:37:52.624+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:37:52.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:37:52.633+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:52.632+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:37:52.674+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:52.674+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:37:52.676+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:52.676+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:37:52.677+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:52.677+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:37:52.678+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:52.678+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:37:53.031+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:37:53.116+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:53.116+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:37:53.130+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:37:53.130+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:37:53.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.527 seconds
+[2025-02-28T00:38:23.429+0000] {processor.py:186} INFO - Started process (PID=322) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:38:23.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:38:23.432+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:23.432+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:38:23.453+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:23.453+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:38:23.454+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:23.454+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:38:23.456+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:23.455+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:38:23.456+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:23.456+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:38:23.952+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:38:24.020+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:24.020+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:38:24.031+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:24.031+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:38:24.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.617 seconds
+[2025-02-28T00:38:54.320+0000] {processor.py:186} INFO - Started process (PID=338) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:38:54.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:38:54.325+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:54.324+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:38:54.350+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:54.349+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:38:54.351+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:54.351+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:38:54.352+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:54.352+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:38:54.353+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:54.352+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:38:54.767+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:38:54.837+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:54.837+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:38:54.849+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:38:54.849+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:38:54.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.546 seconds
+[2025-02-28T00:39:25.075+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:39:25.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:39:25.080+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:25.079+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:39:25.103+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:25.102+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:39:25.104+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:25.104+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:39:25.105+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:25.104+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:39:25.105+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:25.105+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:39:25.468+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:39:25.487+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:25.487+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:39:25.508+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:25.507+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:39:25.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.451 seconds
+[2025-02-28T00:39:55.894+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:39:55.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:39:55.900+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:55.899+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:39:55.924+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:55.924+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:39:55.925+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:55.925+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:39:55.926+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:55.926+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:39:55.927+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:55.927+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:39:56.300+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:39:56.381+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:56.381+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:39:56.393+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:39:56.393+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:39:56.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.516 seconds
+[2025-02-28T00:40:26.740+0000] {processor.py:186} INFO - Started process (PID=371) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:40:26.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:40:26.744+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:26.744+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:40:26.767+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:26.767+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:40:26.768+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:26.768+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:40:26.769+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:26.769+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:40:26.769+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:26.769+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:40:27.160+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:40:27.227+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:27.226+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:40:27.236+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:27.236+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:40:27.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.514 seconds
+[2025-02-28T00:40:57.493+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:40:57.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:40:57.497+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:57.496+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:40:57.518+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:57.517+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:40:57.518+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:57.518+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:40:57.519+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:57.519+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:40:57.520+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:57.519+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:40:57.888+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:40:57.954+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:57.954+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:40:57.964+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:40:57.964+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:40:57.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.485 seconds
+[2025-02-28T00:41:28.313+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:41:28.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:41:28.318+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:28.317+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:41:28.346+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:28.346+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:41:28.347+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:28.347+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:41:28.349+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:28.348+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:41:28.349+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:28.349+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:41:28.730+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:41:28.808+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:28.808+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:41:28.820+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:28.820+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:41:28.829+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.527 seconds
+[2025-02-28T00:41:59.152+0000] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:41:59.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:41:59.156+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:59.156+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:41:59.179+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:59.179+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:41:59.180+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:59.180+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:41:59.181+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:59.180+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:41:59.181+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:59.181+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:41:59.489+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:41:59.548+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:59.548+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:41:59.558+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:41:59.558+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:41:59.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.420 seconds
+[2025-02-28T00:42:29.893+0000] {processor.py:186} INFO - Started process (PID=421) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:42:29.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:42:29.896+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:42:29.896+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:42:29.918+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:42:29.918+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:42:29.919+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:42:29.919+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:42:29.920+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:42:29.920+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:42:29.920+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:42:29.920+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:42:30.269+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:42:30.341+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:42:30.341+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:42:30.351+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:42:30.351+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:42:30.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.471 seconds
+[2025-02-28T00:43:00.647+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:43:00.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:43:00.650+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:00.650+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:43:00.672+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:00.672+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:43:00.674+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:00.673+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:43:00.674+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:00.674+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:43:00.675+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:00.675+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:43:01.005+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:43:01.073+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:01.073+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:43:01.083+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:01.083+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:43:01.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.452 seconds
+[2025-02-28T00:43:31.455+0000] {processor.py:186} INFO - Started process (PID=443) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:43:31.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:43:31.467+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:31.464+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:43:31.512+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:31.512+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:43:31.513+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:31.513+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:43:31.514+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:31.514+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:43:31.515+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:31.515+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:43:32.414+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:43:32.496+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:32.496+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:43:32.512+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:43:32.511+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:43:32.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 1.076 seconds
+[2025-02-28T00:44:30.348+0000] {processor.py:186} INFO - Started process (PID=448) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:44:30.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:44:30.354+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:44:30.353+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:44:30.394+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:44:30.394+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:44:30.396+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:44:30.396+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:44:30.397+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:44:30.397+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:44:30.397+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:44:30.397+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:44:30.761+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:44:30.841+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:44:30.840+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:44:30.853+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:44:30.853+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:44:30.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.529 seconds
+[2025-02-28T00:45:01.205+0000] {processor.py:186} INFO - Started process (PID=459) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:45:01.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:45:01.210+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:01.210+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:45:01.238+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:01.237+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:45:01.239+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:01.239+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:45:01.239+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:01.239+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:45:01.240+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:01.240+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:45:01.975+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:45:02.041+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:02.040+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:45:02.051+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:02.051+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:45:02.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.865 seconds
+[2025-02-28T00:45:32.431+0000] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:45:32.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:45:32.434+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:32.434+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:45:32.455+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:32.455+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:45:32.456+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:32.456+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:45:32.457+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:32.457+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:45:32.457+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:32.457+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:45:32.833+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:45:32.903+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:32.903+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:45:32.912+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:45:32.912+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:45:32.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.498 seconds
+[2025-02-28T00:46:26.281+0000] {processor.py:186} INFO - Started process (PID=481) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:46:26.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:46:26.285+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:26.284+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:46:26.306+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:26.306+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:46:26.307+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:26.307+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:46:26.308+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:26.307+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:46:26.308+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:26.308+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:46:26.735+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:46:26.753+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:26.753+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:46:26.770+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:26.770+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:46:26.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.513 seconds
+[2025-02-28T00:46:57.148+0000] {processor.py:186} INFO - Started process (PID=492) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:46:57.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:46:57.154+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:57.153+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:46:57.174+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:57.174+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:46:57.175+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:57.174+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:46:57.175+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:57.175+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:46:57.175+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:57.175+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:46:57.712+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:46:57.730+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:57.730+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:46:57.747+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:46:57.747+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:46:57.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.619 seconds
+[2025-02-28T00:47:28.147+0000] {processor.py:186} INFO - Started process (PID=503) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:47:28.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:47:28.150+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:47:28.150+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:47:28.171+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:47:28.171+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:47:28.172+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:47:28.172+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:47:28.173+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:47:28.173+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:47:28.173+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:47:28.173+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:47:28.706+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:47:28.785+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:47:28.785+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:47:28.795+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:47:28.795+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:47:28.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.662 seconds
+[2025-02-28T00:48:09.807+0000] {processor.py:186} INFO - Started process (PID=514) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:48:09.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:48:09.821+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:09.819+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:48:09.906+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:09.906+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:48:09.907+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:09.907+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:48:09.909+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:09.908+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:48:09.909+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:09.909+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:48:10.276+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:48:10.351+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:10.351+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:48:10.365+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:10.365+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:48:10.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.580 seconds
+[2025-02-28T00:48:40.729+0000] {processor.py:186} INFO - Started process (PID=525) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:48:40.731+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:48:40.743+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:40.741+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:48:40.778+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:40.778+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:48:40.780+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:40.780+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:48:40.783+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:40.783+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:48:40.783+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:40.783+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:48:41.186+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:48:41.264+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:41.263+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:48:41.275+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:48:41.275+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:48:41.284+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.565 seconds
+[2025-02-28T00:49:11.673+0000] {processor.py:186} INFO - Started process (PID=536) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:49:11.675+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:49:11.679+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:11.678+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:49:11.707+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:11.707+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:49:11.708+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:11.708+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:49:11.709+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:11.709+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:49:11.710+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:11.710+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:49:12.095+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:49:12.166+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:12.166+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:49:12.177+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:12.177+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:49:12.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.522 seconds
+[2025-02-28T00:49:42.403+0000] {processor.py:186} INFO - Started process (PID=547) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:49:42.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:49:42.407+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:42.406+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:49:42.429+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:42.429+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:49:42.430+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:42.430+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:49:42.431+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:42.431+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:49:42.431+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:42.431+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:49:42.830+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:49:42.912+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:42.912+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:49:42.923+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:49:42.923+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:49:42.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.537 seconds
+[2025-02-28T00:50:13.278+0000] {processor.py:186} INFO - Started process (PID=558) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:50:13.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:50:13.282+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:13.281+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:50:13.303+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:13.303+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:50:13.304+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:13.304+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:50:13.305+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:13.305+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:50:13.306+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:13.306+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:50:13.758+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:50:13.776+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:13.775+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:50:13.794+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:13.793+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:50:13.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.533 seconds
+[2025-02-28T00:50:44.094+0000] {processor.py:186} INFO - Started process (PID=569) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:50:44.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:50:44.097+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:44.097+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:50:44.117+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:44.117+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:50:44.118+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:44.118+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:50:44.119+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:44.119+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:50:44.119+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:44.119+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:50:44.463+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:50:44.532+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:44.531+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:50:44.541+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:50:44.541+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:50:44.550+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.462 seconds
+[2025-02-28T00:51:14.855+0000] {processor.py:186} INFO - Started process (PID=580) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:51:14.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:51:14.858+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:14.858+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:51:14.879+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:14.879+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:51:14.880+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:14.880+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:51:14.881+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:14.881+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:51:14.882+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:14.882+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:51:15.406+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:51:15.474+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:15.474+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:51:15.485+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:15.485+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:51:15.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.645 seconds
+[2025-02-28T00:51:45.741+0000] {processor.py:186} INFO - Started process (PID=591) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:51:45.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:51:45.745+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:45.744+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:51:45.764+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:45.764+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:51:45.765+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:45.765+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:51:45.766+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:45.765+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:51:45.766+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:45.766+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:51:46.223+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:51:46.282+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:46.282+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:51:46.291+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:51:46.291+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:51:46.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.564 seconds
+[2025-02-28T00:52:16.682+0000] {processor.py:186} INFO - Started process (PID=602) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:52:16.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:52:16.690+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:16.689+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:52:16.718+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:16.717+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:52:16.719+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:16.719+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:52:16.720+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:16.720+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:52:16.721+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:16.721+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:52:17.099+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:52:17.171+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:17.170+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:52:17.185+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:17.185+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:52:17.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.526 seconds
+[2025-02-28T00:52:47.316+0000] {processor.py:186} INFO - Started process (PID=613) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:52:47.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:52:47.319+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:47.319+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:52:47.341+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:47.341+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:52:47.342+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:47.342+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:52:47.343+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:47.343+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:52:47.344+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:47.343+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:52:47.970+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:52:48.040+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:48.039+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:52:48.055+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:52:48.055+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:52:48.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.757 seconds
+[2025-02-28T00:53:18.397+0000] {processor.py:186} INFO - Started process (PID=624) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:53:18.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:53:18.400+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:18.399+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:53:18.421+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:18.420+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:53:18.421+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:18.421+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:53:18.422+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:18.422+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:53:18.423+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:18.422+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:53:18.830+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:53:18.897+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:18.897+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:53:18.907+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:18.907+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:53:18.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.525 seconds
+[2025-02-28T00:53:49.163+0000] {processor.py:186} INFO - Started process (PID=635) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:53:49.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:53:49.173+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:49.172+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:53:49.203+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:49.202+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:53:49.204+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:49.204+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:53:49.205+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:49.205+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:53:49.205+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:49.205+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:53:49.630+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:53:49.716+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:49.716+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:53:49.732+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:53:49.732+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:53:49.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.587 seconds
+[2025-02-28T00:54:20.079+0000] {processor.py:186} INFO - Started process (PID=646) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:54:20.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:54:20.082+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:20.082+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:54:20.104+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:20.104+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:54:20.105+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:20.105+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:54:20.106+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:20.106+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:54:20.106+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:20.106+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:54:20.447+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:54:20.521+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:20.521+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:54:20.532+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:20.531+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:54:20.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.467 seconds
+[2025-02-28T00:54:50.843+0000] {processor.py:186} INFO - Started process (PID=657) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:54:50.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:54:50.846+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:50.846+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:54:50.867+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:50.866+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:54:50.868+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:50.868+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:54:50.868+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:50.868+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:54:50.869+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:50.869+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:54:51.277+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:54:51.347+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:51.347+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:54:51.357+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:54:51.357+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:54:51.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.529 seconds
+[2025-02-28T00:55:21.683+0000] {processor.py:186} INFO - Started process (PID=668) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:55:21.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:55:21.686+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:21.686+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:55:21.705+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:21.705+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:55:21.706+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:21.706+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:55:21.707+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:21.707+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:55:21.707+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:21.707+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:55:22.103+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:55:22.176+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:22.176+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:55:22.187+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:22.187+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:55:22.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.519 seconds
+[2025-02-28T00:55:52.566+0000] {processor.py:186} INFO - Started process (PID=679) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:55:52.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:55:52.569+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:52.569+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:55:52.590+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:52.589+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:55:52.591+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:52.590+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:55:52.591+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:52.591+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:55:52.592+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:52.592+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:55:52.985+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:55:53.047+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:53.046+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:55:53.056+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:55:53.056+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:55:53.063+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.504 seconds
+[2025-02-28T00:56:23.374+0000] {processor.py:186} INFO - Started process (PID=690) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:56:23.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:56:23.377+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:23.377+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:56:23.399+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:23.399+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:56:23.400+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:23.400+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:56:23.401+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:23.401+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:56:23.401+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:23.401+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:56:23.746+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:56:23.814+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:23.814+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:56:23.824+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:23.824+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:56:23.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.465 seconds
+[2025-02-28T00:56:54.159+0000] {processor.py:186} INFO - Started process (PID=701) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:56:54.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:56:54.162+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:54.162+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:56:54.184+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:54.184+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:56:54.185+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:54.185+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:56:54.186+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:54.186+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:56:54.187+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:54.187+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:56:54.540+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:56:54.610+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:54.610+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:56:54.621+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:56:54.621+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:56:54.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.478 seconds
+[2025-02-28T00:57:24.935+0000] {processor.py:186} INFO - Started process (PID=712) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:57:24.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:57:24.939+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:24.938+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:57:24.959+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:24.959+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:57:24.960+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:24.960+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:57:24.961+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:24.961+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:57:24.961+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:24.961+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:57:25.323+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:57:25.392+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:25.392+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:57:25.402+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:25.402+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:57:25.410+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.482 seconds
+[2025-02-28T00:57:55.775+0000] {processor.py:186} INFO - Started process (PID=723) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:57:55.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:57:55.779+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:55.778+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:57:55.800+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:55.799+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:57:55.801+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:55.800+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:57:55.801+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:55.801+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:57:55.802+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:55.802+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:57:56.144+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:57:56.194+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:56.194+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:57:56.203+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:57:56.203+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:57:56.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.443 seconds
+[2025-02-28T00:58:26.593+0000] {processor.py:186} INFO - Started process (PID=734) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:58:26.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:58:26.598+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:26.598+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:58:26.631+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:26.630+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:58:26.632+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:26.632+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:58:26.633+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:26.633+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:58:26.633+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:26.633+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:58:27.139+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:58:27.227+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:27.227+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:58:27.238+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:27.238+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:58:27.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.662 seconds
+[2025-02-28T00:58:57.587+0000] {processor.py:186} INFO - Started process (PID=745) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:58:57.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:58:57.590+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:57.590+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:58:57.611+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:57.611+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:58:57.612+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:57.612+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:58:57.613+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:57.613+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:58:57.613+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:57.613+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:58:58.015+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:58:58.085+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:58.085+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:58:58.095+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:58:58.094+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:58:58.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.524 seconds
+[2025-02-28T00:59:28.241+0000] {processor.py:186} INFO - Started process (PID=756) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:59:28.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:59:28.244+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:28.244+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:59:28.266+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:28.265+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:59:28.267+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:28.267+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:59:28.268+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:28.267+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:59:28.268+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:28.268+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:59:28.766+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:59:28.836+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:28.836+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:59:28.846+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:28.846+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:59:28.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.620 seconds
+[2025-02-28T00:59:59.155+0000] {processor.py:186} INFO - Started process (PID=772) to work on /opt/airflow/dags/api.py
+[2025-02-28T00:59:59.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T00:59:59.158+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:59.158+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T00:59:59.177+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:59.177+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T00:59:59.178+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:59.178+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T00:59:59.179+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:59.179+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T00:59:59.179+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:59.179+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T00:59:59.521+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T00:59:59.595+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:59.595+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T00:59:59.605+0000] {logging_mixin.py:190} INFO - [2025-02-28T00:59:59.605+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T00:59:59.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.464 seconds
+[2025-02-28T01:00:29.974+0000] {processor.py:186} INFO - Started process (PID=783) to work on /opt/airflow/dags/api.py
+[2025-02-28T01:00:29.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T01:00:29.977+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:00:29.977+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T01:00:29.999+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:00:29.999+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T01:00:30.000+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:00:30.000+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T01:00:30.001+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:00:30.001+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T01:00:30.001+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:00:30.001+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T01:00:30.409+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T01:00:30.481+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:00:30.481+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T01:00:30.491+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:00:30.491+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T01:00:30.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.532 seconds
+[2025-02-28T01:01:00.851+0000] {processor.py:186} INFO - Started process (PID=794) to work on /opt/airflow/dags/api.py
+[2025-02-28T01:01:00.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T01:01:00.858+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:00.857+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T01:01:00.896+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:00.896+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T01:01:00.899+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:00.899+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T01:01:00.901+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:00.900+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T01:01:00.901+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:00.901+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T01:01:01.333+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T01:01:01.431+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:01.430+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T01:01:01.464+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:01.464+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T01:01:01.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.651 seconds
+[2025-02-28T01:01:31.752+0000] {processor.py:186} INFO - Started process (PID=805) to work on /opt/airflow/dags/api.py
+[2025-02-28T01:01:31.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T01:01:31.755+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:31.755+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T01:01:31.775+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:31.775+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T01:01:31.776+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:31.776+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T01:01:31.777+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:31.777+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T01:01:31.777+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:31.777+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T01:01:32.161+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T01:01:32.231+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:32.230+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T01:01:32.241+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:01:32.241+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T01:01:32.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.506 seconds
+[2025-02-28T01:02:02.276+0000] {processor.py:186} INFO - Started process (PID=816) to work on /opt/airflow/dags/api.py
+[2025-02-28T01:02:02.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T01:02:02.279+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:02.279+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T01:02:02.296+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:02.295+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T01:02:02.296+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:02.296+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T01:02:02.297+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:02.297+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T01:02:02.297+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:02.297+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T01:02:02.686+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T01:02:02.757+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:02.757+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T01:02:02.767+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:02.767+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T01:02:02.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.505 seconds
+[2025-02-28T01:02:32.839+0000] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/api.py
+[2025-02-28T01:02:32.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T01:02:32.845+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:32.844+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T01:02:32.870+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:32.870+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T01:02:32.871+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:32.871+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T01:02:32.872+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:32.872+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T01:02:32.872+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:32.872+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T01:02:33.316+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T01:02:33.389+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:33.389+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T01:02:33.399+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:02:33.399+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T01:02:33.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.577 seconds
+[2025-02-28T01:03:03.714+0000] {processor.py:186} INFO - Started process (PID=838) to work on /opt/airflow/dags/api.py
+[2025-02-28T01:03:03.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T01:03:03.721+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:03.720+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T01:03:03.754+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:03.754+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T01:03:03.755+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:03.755+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T01:03:03.756+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:03.756+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T01:03:03.757+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:03.757+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T01:03:04.099+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T01:03:04.188+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:04.188+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T01:03:04.202+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:04.202+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T01:03:04.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.506 seconds
+[2025-02-28T01:03:34.589+0000] {processor.py:186} INFO - Started process (PID=849) to work on /opt/airflow/dags/api.py
+[2025-02-28T01:03:34.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2025-02-28T01:03:34.592+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:34.592+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2025-02-28T01:03:34.614+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:34.614+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-02-28T01:03:34.615+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:34.615+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-02-28T01:03:34.616+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:34.615+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-02-28T01:03:34.616+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:34.616+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-02-28T01:03:34.985+0000] {processor.py:925} INFO - DAG(s) 'AlphaVantage_Stock_Price_Prediction_Analysis' retrieved from /opt/airflow/dags/api.py
+[2025-02-28T01:03:35.051+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:35.051+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-02-28T01:03:35.064+0000] {logging_mixin.py:190} INFO - [2025-02-28T01:03:35.064+0000] {dag.py:4156} INFO - Setting next_dagrun for AlphaVantage_Stock_Price_Prediction_Analysis to 2025-02-28 00:15:00+00:00, run_after=2025-03-01 00:15:00+00:00
+[2025-02-28T01:03:35.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/api.py took 0.491 seconds
