@@ -39722,3 +39722,144 @@ File Path                                  PID    Runtime      # DAGs    # Error
 /opt/airflow/dags/stockpriceprediction.py                           1           0  0.98s           2025-03-04T21:04:42                      36
 /opt/airflow/dags/Assignment5.py                                    1           0  0.08s           2025-03-04T21:04:53                      12
 ================================================================================
+[2025-03-04T21:05:34.895+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.76s           2025-03-04T21:05:13                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.08s           2025-03-04T21:05:23                      12
+================================================================================
+[2025-03-04T21:06:05.260+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.93s           2025-03-04T21:05:44                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.10s           2025-03-04T21:05:54                      12
+================================================================================
+[2025-03-04T21:06:32.448+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-03-04T21:06:32.466+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-04T21:06:35.510+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.84s           2025-03-04T21:06:16                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.09s           2025-03-04T21:06:24                      12
+================================================================================
+[2025-03-04T21:07:05.594+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.69s           2025-03-04T21:06:47                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.08s           2025-03-04T21:06:54                      12
+================================================================================
+[2025-03-04T21:07:36.018+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.60s           2025-03-04T21:07:18                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.09s           2025-03-04T21:07:24                      12
+================================================================================
+[2025-03-04T21:08:06.415+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.99s           2025-03-04T21:07:50                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.08s           2025-03-04T21:07:55                      12
+================================================================================
+[2025-03-04T21:08:36.544+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.73s           2025-03-04T21:08:21                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.08s           2025-03-04T21:08:25                      12
+================================================================================
+[2025-03-04T21:09:06.614+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.71s           2025-03-04T21:08:52                      14
+/opt/airflow/dags/Assignment5.py                                    1           0  0.08s           2025-03-04T21:08:55                      12
+================================================================================
+[2025-03-04T21:09:36.786+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.77s           2025-03-04T21:09:23                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.06s           2025-03-04T21:09:25                      12
+================================================================================
+[2025-03-04T21:10:07.111+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.89s           2025-03-04T21:09:54                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.06s           2025-03-04T21:09:55                      12
+================================================================================
+[2025-03-04T21:10:37.173+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.67s           2025-03-04T21:10:26                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.05s           2025-03-04T21:10:26                      12
+================================================================================
+[2025-03-04T21:11:07.205+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.66s           2025-03-04T21:10:57                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.06s           2025-03-04T21:10:56                      12
+================================================================================
+[2025-03-04T21:11:32.828+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-03-04T21:11:32.834+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-04T21:11:37.927+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.88s           2025-03-04T21:11:28                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.17s           2025-03-04T21:11:27                      12
+================================================================================
+[2025-03-04T21:17:47.859+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-03-04T21:17:47.872+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-04T21:18:17.088+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  0.88s           2025-03-04T21:17:48                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.10s           2025-03-04T21:17:48                      12
+================================================================================
+[2025-03-04T21:18:47.591+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stockpriceprediction.py                           1           0  1.15s           2025-03-04T21:18:20                      36
+/opt/airflow/dags/Assignment5.py                                    1           0  0.17s           2025-03-04T21:18:18                      12
+================================================================================

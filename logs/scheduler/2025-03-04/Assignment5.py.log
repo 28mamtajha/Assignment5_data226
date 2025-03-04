@@ -467,3 +467,115 @@
 [2025-03-04T21:04:53.633+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:04:53.632+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-03-04T21:04:53.646+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:04:53.646+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
 [2025-03-04T21:04:53.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.060 seconds
+[2025-03-04T21:05:23.762+0000] {processor.py:186} INFO - Started process (PID=3092) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:05:23.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:05:23.765+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:05:23.764+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:05:23.775+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:05:23.798+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:05:23.797+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:05:23.815+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:05:23.815+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:05:23.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.067 seconds
+[2025-03-04T21:05:54.110+0000] {processor.py:186} INFO - Started process (PID=3108) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:05:54.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:05:54.113+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:05:54.113+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:05:54.124+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:05:54.144+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:05:54.143+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:05:54.160+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:05:54.160+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:05:54.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.071 seconds
+[2025-03-04T21:06:24.354+0000] {processor.py:186} INFO - Started process (PID=3124) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:06:24.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:06:24.357+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:06:24.357+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:06:24.370+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:06:24.392+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:06:24.391+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:06:24.406+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:06:24.406+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:06:24.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.068 seconds
+[2025-03-04T21:06:54.469+0000] {processor.py:186} INFO - Started process (PID=3140) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:06:54.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:06:54.472+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:06:54.471+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:06:54.482+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:06:54.503+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:06:54.502+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:06:54.518+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:06:54.518+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:06:54.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.065 seconds
+[2025-03-04T21:07:24.906+0000] {processor.py:186} INFO - Started process (PID=3156) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:07:24.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:07:24.909+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:07:24.908+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:07:24.920+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:07:24.942+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:07:24.941+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:07:24.956+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:07:24.956+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:07:24.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.067 seconds
+[2025-03-04T21:07:55.286+0000] {processor.py:186} INFO - Started process (PID=3172) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:07:55.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:07:55.288+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:07:55.288+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:07:55.298+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:07:55.315+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:07:55.314+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:07:55.327+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:07:55.327+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:07:55.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.058 seconds
+[2025-03-04T21:08:25.397+0000] {processor.py:186} INFO - Started process (PID=3188) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:08:25.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:08:25.400+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:08:25.399+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:08:25.411+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:08:25.431+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:08:25.430+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:08:25.444+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:08:25.444+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:08:25.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.062 seconds
+[2025-03-04T21:08:55.506+0000] {processor.py:186} INFO - Started process (PID=3204) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:08:55.508+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:08:55.509+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:08:55.509+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:08:55.518+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:08:55.539+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:08:55.539+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:08:55.556+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:08:55.556+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:08:55.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.065 seconds
+[2025-03-04T21:09:25.649+0000] {processor.py:186} INFO - Started process (PID=3220) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:09:25.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:09:25.651+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:09:25.650+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:09:25.657+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:09:25.671+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:09:25.670+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:09:25.681+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:09:25.681+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:09:25.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.045 seconds
+[2025-03-04T21:09:55.951+0000] {processor.py:186} INFO - Started process (PID=3236) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:09:55.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:09:55.953+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:09:55.953+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:09:55.961+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:09:55.975+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:09:55.975+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:09:55.987+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:09:55.987+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:09:55.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.047 seconds
+[2025-03-04T21:10:26.039+0000] {processor.py:186} INFO - Started process (PID=3252) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:10:26.040+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:10:26.040+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:10:26.040+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:10:26.047+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:10:26.060+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:10:26.059+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:10:26.070+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:10:26.070+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:10:26.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.042 seconds
+[2025-03-04T21:10:56.447+0000] {processor.py:186} INFO - Started process (PID=3266) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:10:56.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:10:56.451+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:10:56.451+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:10:56.457+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:10:56.475+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:10:56.474+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:10:56.487+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:10:56.487+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:10:56.494+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.051 seconds
+[2025-03-04T21:11:26.877+0000] {processor.py:186} INFO - Started process (PID=3279) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:11:26.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:11:26.880+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:11:26.880+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:11:26.910+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:11:26.953+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:11:26.950+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:11:26.985+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:11:26.985+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:11:27.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.136 seconds
+[2025-03-04T21:17:47.939+0000] {processor.py:186} INFO - Started process (PID=3298) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:17:47.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:17:47.942+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:17:47.941+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:17:47.959+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:17:47.987+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:17:47.986+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:17:48.003+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:17:48.003+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:17:48.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.082 seconds
+[2025-03-04T21:18:18.165+0000] {processor.py:186} INFO - Started process (PID=3311) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:18:18.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:18:18.167+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:18:18.167+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:18:18.197+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:18:18.231+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:18:18.228+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:18:18.253+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:18:18.253+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:18:18.264+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.114 seconds
+[2025-03-04T21:18:48.675+0000] {processor.py:186} INFO - Started process (PID=3327) to work on /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:18:48.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Assignment5.py for tasks to queue
+[2025-03-04T21:18:48.678+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:18:48.678+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:18:48.702+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/Assignment5.py
+[2025-03-04T21:18:48.738+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:18:48.736+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T21:18:48.755+0000] {logging_mixin.py:190} INFO - [2025-03-04T21:18:48.755+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T21:18:48.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Assignment5.py took 0.100 seconds
