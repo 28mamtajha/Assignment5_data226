@@ -586,3 +586,17 @@
 [2025-03-04T20:19:00.521+0000] {logging_mixin.py:190} INFO - [2025-03-04T20:19:00.520+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-03-04T20:19:00.550+0000] {logging_mixin.py:190} INFO - [2025-03-04T20:19:00.550+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
 [2025-03-04T20:19:00.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw5.py took 0.145 seconds
+[2025-03-04T20:19:30.937+0000] {processor.py:186} INFO - Started process (PID=1688) to work on /opt/airflow/dags/hw5.py
+[2025-03-04T20:19:30.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw5.py for tasks to queue
+[2025-03-04T20:19:30.946+0000] {logging_mixin.py:190} INFO - [2025-03-04T20:19:30.945+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw5.py
+[2025-03-04T20:19:30.976+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/hw5.py
+[2025-03-04T20:19:31.016+0000] {logging_mixin.py:190} INFO - [2025-03-04T20:19:31.015+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T20:19:31.034+0000] {logging_mixin.py:190} INFO - [2025-03-04T20:19:31.034+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T20:19:31.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw5.py took 0.129 seconds
+[2025-03-04T20:20:01.211+0000] {processor.py:186} INFO - Started process (PID=1704) to work on /opt/airflow/dags/hw5.py
+[2025-03-04T20:20:01.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw5.py for tasks to queue
+[2025-03-04T20:20:01.221+0000] {logging_mixin.py:190} INFO - [2025-03-04T20:20:01.220+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw5.py
+[2025-03-04T20:20:01.248+0000] {processor.py:925} INFO - DAG(s) 'StockPrice_ETL' retrieved from /opt/airflow/dags/hw5.py
+[2025-03-04T20:20:01.285+0000] {logging_mixin.py:190} INFO - [2025-03-04T20:20:01.285+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-04T20:20:01.304+0000] {logging_mixin.py:190} INFO - [2025-03-04T20:20:01.304+0000] {dag.py:4156} INFO - Setting next_dagrun for StockPrice_ETL to 2025-03-04 02:30:00+00:00, run_after=2025-03-05 02:30:00+00:00
+[2025-03-04T20:20:01.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw5.py took 0.125 seconds
